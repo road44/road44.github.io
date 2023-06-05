@@ -7,9 +7,12 @@
 <body>
   <div id="tekst1">
     <h2>
-      WORK IN PROGRES
+      start let's go
     </h2>
   </div>
-  
+  <ul id="menu">
+     <li><a href="omnie.html">O mnie</a></li>
+    <li><a href="kanal.html">Kanał</a></li>
+  </ul>
   </body>
 </html>
