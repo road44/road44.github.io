@@ -10,3 +10,13 @@ body {
 #lnk {
     font-family:'Comic Sans MS', cursive;
   }
+
+
+a:link, a:hover, a:active{
+  text-decoration: none;
+  color:black;
+}
+
+a:visited{
+  color:blueviolet;
+}
