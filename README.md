@@ -1,1 +1,0 @@
-WGL to jestem super
