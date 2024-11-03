@@ -1,0 +1,19 @@
+#link {
+	text-decoration: none;
+	/* border: 6px solid blue; */
+	color: blue;
+}
+
+#link:hover {
+	color: purple;
+	text-decoration: overline;
+}
+
+#tekst:hover {
+	padding: 10px;
+	border: 4px solid black;
+}
+
+body{
+    background-color: cyan;
+}
