@@ -35,7 +35,7 @@
                         <?php
                             echo '<li class="nav-item"><a class="nav-link" href="index.php?page=main.php">Główna</a></li>';
                             echo '<li class="nav-item"><a class="nav-link" href="index.php?page=muzyka.php">Ulubiona Muzyka</a></li>';
-                            echo '<li class="nav-item"><a class="nav-link" href="old/index.html">Stara_Strona</a></li>';
+                            echo '<li class="nav-item"><a class="nav-link" href="old/index.html">Stara_Strona</a></li>'; 
                             // echo '<li class="nav-item"><a class="nav-link" href="index.php?page=news.php">Aktualności</a></li>';
                             
                         ?>

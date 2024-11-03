@@ -1,15 +1,15 @@
-#omnie{
-  color:green;
+#omnie {
+	color: green;
 }
-#kiedy{
-  color:red;
+#kiedy {
+	color: red;
 }
-#sprz{
-  color:blue;
+#sprzet {
+	color: blue;
 }
 body {
-        background-color: cyan ;
-      }
-#tekst1{
-  font-size:20px
+	background-color: cyan;
+}
+#tekst1 {
+	font-size: 20px;
 }
