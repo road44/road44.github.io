@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wzorzec</title>
+</head>
+
+<body>
+    <h2>zdarzenia javascript</h2>
+    <img src="zdj1.jpg" id="zmiana" onmousedown="zmiana2()" onmouseover="zmiana1()" onmouseleave="zmiana4()"
+        onmouseup="zmiana3()" />
+
+    <script>
+        function zmiana1() {
+            document.getElementById("zmiana").src = "zdj2.jpg"
+        }
+        function zmiana2() {
+            document.getElementById("zmiana").src = "zdj3.jpg"
+        }
+        function zmiana3() {
+            window.location.href = "http://h0ld4.eu";
+        }
+        function zmiana4() {
+            document.getElementById('zmiana').src = "zdj4.jpg"
+        }
+    </script>
+</body>
+
+</html>

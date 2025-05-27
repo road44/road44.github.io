@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grzyb.css">
+
+</head>
+
+<body>
+    <script>
+
+        // let godz = prompt("Ile godzin sypiasz?")
+
+        // function czasSnu(godz) {
+        //     if (godz >= 7) {
+        //         document.write("odpowiedznia ilość snu")
+        //     }
+        //     else {
+        //         document.write("Za mało snu")
+        //     }
+        // }
+
+        // czasSnu(godz)
+
+
+        // document.write('<br> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>')
+
+        // // ćwiczenie 2
+
+        // let absoulute = prompt("podaj liczbe z której obliczmy wartość bezwzględną")
+
+        // function bezwgl(absoulute) {
+        //     if (absoulute > 0) {
+        //         return absoulute
+        //     }
+        //     else {
+        //         return absoulute * (-1)
+        //     }
+        // }
+
+        // document.write(bezwgl(absoulute))
+
+
+        document.write('<br>xxxxxxxxxxxxxxxxx <br> <br>')
+        let szer = prompt("podaj szerokość figury")
+        let dlug = prompt("podaj długość figury")
+
+
+
+        const polefigury = (szer, dlug) => {
+            let pole = szer * dlug
+            if (szer == dlug) {
+                document.write('Twoja figura jest kwadratem <br>')
+                document.write(`pole figury wynosi ${pole}`)
+            }
+            else {
+                document.write("Twoja figura to prostokąt <br> ")
+                document.write(`pole figury wynosi ${pole}`)
+            }
+        }
+
+        polefigury(szer, dlug)
+
+
+        // nfn robi szablon funkcji ⬆️⬆️ 
+
+        document.write('<br>')
+
+        let fahr = prompt("Podaj temperaturę w spotiach faranhajta")
+
+        const naCel = (fahr) => {
+            let obliczC = (5 / 9) * (fahr - 32)
+            document.write(`${fahr} °F to ${obliczC.toFixed(2)} °C`)
+        }
+        naCel(fahr)
+
+
+
+    </script>
+    <br>
+    <a href="wstep.html">wstep</a>
+</body>
+
+</html>
