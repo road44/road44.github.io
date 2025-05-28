@@ -8,19 +8,46 @@
     <link rel="stylesheet" href="css/style_main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-capitalize">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#">Projekt BootStrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Strona Główna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://h0ld4.eu" target="_blank">srona druga</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            lista rozwijana
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="szkolny-js/wstep.html" target="_blank">Strona JS - Klasa
+                                    3</a></li>
+                            <!-- <li>
+                                <hr class="dropdown-divider">
+                            </li> -->
+                            <!-- <li><a class="dropdown-item " href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <a id="link" href="http://h0ld4.eu">
-        <h2 id="tekst">Nowa Strona</h2>
-    </a>
-    <a href="szkolny-js/wstep.html">
-        <h2>Szkolny JS</h2>
-    </a>
-
-    <p>PS. Kiedyś rozdziele te tabelki na poszczególne lata :)</p>
 </body>
 
 </html>
