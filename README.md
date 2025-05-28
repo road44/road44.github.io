@@ -1,3 +1,4 @@
 # GitHubowa strona Hołdy
 
-## Jest strona JS z 3 Klasy
+## Jest tu zakładka o mnie oraz strona JS z 3 Klasy
+

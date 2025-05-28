@@ -1,19 +1,24 @@
-#link {
-	text-decoration: none;
-	/* border: 6px solid blue; */
-	color: blue;
+#naglowek {
+background-image: url("../assets/zeta-min.webp");	background-color: cyan;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-#link:hover {
-	color: purple;
-	text-decoration: overline;
+#napis-naglowek {
+	background-color: rgba(0, 0, 0, 0.473);
+	color: white;
+	font-family: "Cherry Bomb One", system-ui;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
 
-#tekst:hover {
-	padding: 10px;
-	border: 4px solid black;
+section {
+	padding-top: 9rem;
+	padding-bottom: 9rem;
 }
 
-body{
-    background-color: cyan;
+header {
+	padding-top: 9.5rem;
+	padding-bottom: 6rem;
 }
