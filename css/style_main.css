@@ -1,18 +1,25 @@
 #naglowek {
-background-image: url("../assets/zeta-min.webp");	background-color: cyan;
+	background-image: url("../assets/zeta-min.webp");
+	background-color: cyan;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#napis-naglowek {
+#napis-naglowek-main {
 	background-color: rgba(0, 0, 0, 0.473);
 	color: white;
 	font-family: "Cherry Bomb One", system-ui;
 	font-optical-sizing: auto;
 	font-style: normal;
 }
-
+#napis-naglowek-about {
+	background-color: rgba(0, 0, 0, 0.473);
+	color: white;
+	font-family: "Cherry Bomb One", system-ui;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
 section {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
