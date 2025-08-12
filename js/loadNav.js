@@ -1,5 +1,5 @@
-fetch("head/head.html")
+fetch("head/nav.html")
 	.then((response) => response.text())
-	.then((data) => {
-		document.head.innerHTML += data;
+	.then((html) => {
+		document.getElementById("navbar").innerHTML = html;
 	});
